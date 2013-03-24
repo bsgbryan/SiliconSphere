@@ -7,6 +7,17 @@
 
   "dependencies": {
     "http-proxy": "0.10.0",
-    "express": "3.1.0"
+    "express": "3.1.0",
+    "socket.io": "0.9.13",
+    "socket.io-client": "0.9.11"
+  },
+
+  "bin": {
+    "mush": "pusher.js"
+  },
+
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
   }
 }
